@@ -67,11 +67,7 @@ int main(int argc, char* argv[])
 
     free(threads);
     printf("Finalizado...\n");
-    /*
-    for(int x = 0 ;x < lenght ;x++){
-        printf("size -> %d \n",vector[x]);
-    }
-    */
+
     free(vector);
     return 0;
 }
